@@ -4,5 +4,13 @@
     "psr-4": {
       "TJ\\Uploader\\": "src"
     }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "aws/aws-sdk-php": "^3.18",
+    "easmith/selectel-storage": "dev-master"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.8"
   }
 }
